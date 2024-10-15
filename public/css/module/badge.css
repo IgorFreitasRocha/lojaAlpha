@@ -1,0 +1,27 @@
+.badge{
+    border-radius: 0.25rem;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    
+    margin-top: 5px;
+}
+
+.badge-promocao{
+    color: #fff;
+    background-color: #2807b8;
+}
+
+.badge-semPromocao{
+    color: #fff;
+    background-color: #007bff;
+}
+
+.badge-categoria{
+    color: #fff;
+    background-color: #28a745;
+}

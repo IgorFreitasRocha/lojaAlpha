@@ -1,0 +1,26 @@
+.categoria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.categoria img{
+    width: var(--w-categoria);
+    height: var(--h-categoria);
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.categoria img:hover{
+    transform: scale(1.2);
+}
+
+.categoria-nome {
+    text-align: center;
+}
+

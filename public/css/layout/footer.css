@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: var(--font-noto-sans);
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-img{
+    width: var(--w-logo);
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.footer-redes-img{
+    width: 30px;
+}

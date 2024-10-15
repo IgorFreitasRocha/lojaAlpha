@@ -1,0 +1,16 @@
+@import "base/reset.css";
+@import "base/tipografia.css";
+@import "base/variable.css";
+
+
+@import "layout/nav.css";
+@import "layout/banner.css";
+@import "layout/container.css";
+@import "layout/categoria.css";
+@import "layout/footer.css";
+
+
+
+@import "module/button.css";
+@import "module/card.css";
+@import "module/badge.css";

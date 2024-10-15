@@ -1,0 +1,57 @@
+.btn{
+    width: 100px;
+    height: 30px;
+    color: var(--cor-branca);
+    border-radius: 25px;
+    font-family: var(--font-noto-sans);
+    cursor: pointer;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.btn-comprar{
+    background-color: var(--cor-branca);
+    border: 1px solid #0fd41f;
+    color: #0fd41f;
+    margin: 10px;
+}
+
+.btn-comprar:hover{
+    background-color: #0fd41f;
+    color: var(--cor-branca);
+}
+
+.btn-carrinho{
+    background-color:var(--cor-branca);
+    border: 1px solid #f1c40f;
+    color: #f1c40f;
+    margin: 10px;
+}
+
+.btn-carrinho:hover{
+    background-color: #f1c40f;
+    color: var(--cor-branca);
+}
+
+.btn-carrinho img{
+    width: 20px;
+    height: 20px;
+    color: blue;
+    
+}
+
+
+.btn-pesquisa{
+    background-color: var(--cor-logo);
+    color: var(--cor-branca);
+    border-radius: 4px;
+}
+
+.btn-pesquisa:hover{
+
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-logo);
+    color: var(--cor-logo);
+    
+    
+}
