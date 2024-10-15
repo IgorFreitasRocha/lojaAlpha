@@ -19,4 +19,8 @@ class Produto extends Model
     public function Imagem(){
         return $this->hasMany(Imagem::class, 'PRODUTO_ID', 'PRODUTO_ID');
     }
+
+    public function Estoque(){
+        return $this->hasOne(Estoque::class, 'PRODUTO_ID', 'PRODUTO_ID');
+    }
 }

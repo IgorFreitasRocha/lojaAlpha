@@ -79,6 +79,7 @@
                     </div>
                     <p class="badge {{ $produto->PRODUTO_DESCONTO > 0 ? 'badge-promocao' : 'badge-semPromocao' }}">
                         {{ $produto->PRODUTO_DESCONTO > 0 ? 'Promoção' : 'Sem Desconto' }}
+                    <p class="text-sm"> Únidades disponíveis {{ $produto->Estoque->PRODUTO_QTD }}</p>
                     <p class="text-sm">{{$produto->Categoria->CATEGORIA_NOME}}</p>
                     <h2 class="text-md">{{ $produto->PRODUTO_NOME}}</h3>
                     <p class="text-preco-desconto">R$ {{ number_format($produto->PRODUTO_PRECO, 2, ',', '.') }}</p>
